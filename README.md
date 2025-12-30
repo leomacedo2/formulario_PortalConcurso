@@ -8,10 +8,14 @@ Aplicação simples com frontend em HTML e backend em Java para cadastro de apro
 - Upload de arquivos (multipart)
 
 ## Funcionalidades
-- Cadastro de nome, e-mail, telefone
-- Lista de concursos aprovados
-- Upload de imagem
-- Salvamento local dos dados
+- Formulário HTML com campos:
+  - Nome
+  - Email
+  - Telefone
+  - Concursos aprovados
+  - Upload de imagem
+- Backend em Java usando HttpServer
+- Armazenamento local dos dados e imagens
 
 ## Como rodar o projeto
 
@@ -27,6 +31,8 @@ Aplicação simples com frontend em HTML e backend em Java para cadastro de apro
    java FormularioServidor
 4. Acessar: http://localhost:8000
 
-obs: 
-As imagens enviadas são salvas na pasta /uploads, e os dados textuais são persistidos no arquivo dados.txt, contendo o nome do arquivo da imagem associada ao cadastro.
+
+## Observações
+- Os dados enviados são armazenados localmente
+- As imagens são salvas na pasta /uploads, contendo o nome do arquivo da imagem associada ao cadastro.
 
