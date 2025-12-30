@@ -10,8 +10,8 @@ public class FormularioServidor {
 
     public static void main(String[] args) throws Exception {
 
-        int porta = Integer.parseInt(System.getenv("PORT"));
-        HttpServer server = HttpServer.create(new InetSocketAddress(porta), 0);
+        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
+
 
 
 
@@ -27,7 +27,7 @@ public class FormularioServidor {
         server.createContext("/submit", new SubmitHandler());
 
         server.start();
-        System.out.println("Servidor rodando em http://localhost:8000");
+        System.out.println("Servidor rodando.");
     }
 
     // =========================
