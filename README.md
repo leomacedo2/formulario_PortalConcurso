@@ -4,7 +4,7 @@ Aplicação simples com frontend em HTML e backend em Java para cadastro de apro
 
 ---
 
-## 🌐 Aplicação em Produção (Deploy)
+## 🌐 Deploy
 
 A aplicação está disponível online para testes no seguinte endereço:
 
