@@ -31,7 +31,7 @@ Por esse motivo:
 ## 🧪 Execução Local (Persistência Completa)
 
 ### Pré-requisitos
-- Java 17+ instalado
+- Java 17+
 
 ### Passos
 1. Clone ou extraia o projeto
