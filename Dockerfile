@@ -6,6 +6,6 @@ COPY . .
 
 RUN javac FormularioServidor.java
 
-EXPOSE 8080
+EXPOSE 8000
 
 CMD ["java", "FormularioServidor"]
